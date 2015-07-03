@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UIView+YQQuadAnimation.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *testView;
 
 @end
 
@@ -22,6 +25,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)clickBtn:(id)sender {
+    
+    [self.testView animateToPoint:CGPointMake(320, 430) withCompleteBlk:^{
+        
+    }];
 }
 
 @end

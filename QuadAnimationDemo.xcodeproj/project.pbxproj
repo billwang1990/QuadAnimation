@@ -14,6 +14,8 @@
 		188B05771B4666E300B10426 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188B05761B4666E300B10426 /* Images.xcassets */; };
 		188B057A1B4666E300B10426 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188B05781B4666E300B10426 /* LaunchScreen.xib */; };
 		188B05861B4666E300B10426 /* QuadAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B05851B4666E300B10426 /* QuadAnimationDemoTests.m */; };
+		188B05911B46670E00B10426 /* UIView+YQQuadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B05901B46670E00B10426 /* UIView+YQQuadAnimation.m */; };
+		188B05931B467CBE00B10426 /* baymax.png in Resources */ = {isa = PBXBuildFile; fileRef = 188B05921B467CBE00B10426 /* baymax.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		188B057F1B4666E300B10426 /* QuadAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188B05841B4666E300B10426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188B05851B4666E300B10426 /* QuadAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuadAnimationDemoTests.m; sourceTree = "<group>"; };
+		188B058F1B46670E00B10426 /* UIView+YQQuadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+YQQuadAnimation.h"; path = "YQQuadAnimation/UIView+YQQuadAnimation.h"; sourceTree = "<group>"; };
+		188B05901B46670E00B10426 /* UIView+YQQuadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+YQQuadAnimation.m"; path = "YQQuadAnimation/UIView+YQQuadAnimation.m"; sourceTree = "<group>"; };
+		188B05921B467CBE00B10426 /* baymax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baymax.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				188B056E1B4666E300B10426 /* AppDelegate.m */,
 				188B05701B4666E300B10426 /* ViewController.h */,
 				188B05711B4666E300B10426 /* ViewController.m */,
+				188B058F1B46670E00B10426 /* UIView+YQQuadAnimation.h */,
+				188B05901B46670E00B10426 /* UIView+YQQuadAnimation.m */,
 				188B05731B4666E300B10426 /* Main.storyboard */,
 				188B05761B4666E300B10426 /* Images.xcassets */,
 				188B05781B4666E300B10426 /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		188B05691B4666E300B10426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				188B05921B467CBE00B10426 /* baymax.png */,
 				188B056A1B4666E300B10426 /* Info.plist */,
 				188B056B1B4666E300B10426 /* main.m */,
 			);
@@ -202,6 +210,7 @@
 				188B05751B4666E300B10426 /* Main.storyboard in Resources */,
 				188B057A1B4666E300B10426 /* LaunchScreen.xib in Resources */,
 				188B05771B4666E300B10426 /* Images.xcassets in Resources */,
+				188B05931B467CBE00B10426 /* baymax.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188B05911B46670E00B10426 /* UIView+YQQuadAnimation.m in Sources */,
 				188B05721B4666E300B10426 /* ViewController.m in Sources */,
 				188B056F1B4666E300B10426 /* AppDelegate.m in Sources */,
 				188B056C1B4666E300B10426 /* main.m in Sources */,
